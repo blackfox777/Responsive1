@@ -6,3 +6,32 @@
 html {
   background: grey;
 }
+
+body{
+
+padding-top: 50px;
+}
+
+.top-nav {
+  background: #000;
+
+  /* height: 400px; */
+height: 60px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+.landing {
+  background-image: url("../images/sakuras.png ");
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-contents: center;
+  color: black;
+  text-align:center;
+  
+}
